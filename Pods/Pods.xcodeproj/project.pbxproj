@@ -1,0 +1,964 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059A9FD6D7765B912D04C31B33F59CF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1848FD2BCE5777B3913F0B8BD252F43C /* Pods-IconSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69910E6CD5AF07D3E53D8A4930848D00 /* Pods-IconSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25BBD31B981521045BFD65CD41B55FA6 /* Pods-IconSearch-IconSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9589DFC11D608BC62DD3426BAE2EB20 /* Pods-IconSearch-IconSearchUITests-dummy.m */; };
+		2F2D72E792A48A8BB61F4270F411A41E /* Pods-IconSearch-IconSearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93B7E3509DAFCEA2531ACFC9029739 /* Pods-IconSearch-IconSearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7001D61A505057C728C6FCF5688D1087 /* SearchTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */; };
+		903CC45A3B2503C16AB3DB622CD843F1 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */; };
+		98766F8872C695A5AF09612E0ED427CF /* Pods-IconSearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBE4E12736EE71C6A889F517F805429 /* Pods-IconSearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE2143C4DAED0DDD7651630F69DA78D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A295A4CCB3719848C6D0C984794B136F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E3DD5211E0939599AB451AD5CF372791 /* SearchTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFC3BB575514A837C7299AFB8069FB50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F240A08847D4FAE8489A1A12A67DB5B9 /* Pods-IconSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E5CFF840BFE81C8EB18518248C2479 /* Pods-IconSearch-dummy.m */; };
+		F3FFF21C9462ADB29EB2B9C226E1594A /* Pods-IconSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E58383A6A1BB28C503D56C4D1140AC /* Pods-IconSearchTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF5432CFF6352B962A81EA279CD5C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3F94412D7198255213EB9BC85FFF6E;
+			remoteInfo = SearchTextField;
+		};
+		3E3D5B8B09D8BDE53E363D81C04429C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10D83B4CCB59B2DF5AB3EEBBD02A13E;
+			remoteInfo = "Pods-IconSearch";
+		};
+		DEF81DA717695E39C0AB834B8B703BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C3F94412D7198255213EB9BC85FFF6E;
+			remoteInfo = SearchTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DD264D83BDB15C9821BA7150F22527 /* Pods-IconSearch-IconSearchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconSearch-IconSearchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		0B417C02EDEBE04E427E6C03D471214F /* Pods-IconSearch-IconSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconSearch-IconSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B4B61E26FFC01677AEE6457C09EDADD /* Pods-IconSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IconSearch.modulemap"; sourceTree = "<group>"; };
+		0C2B685753885950DA058CE142AC8505 /* Pods-IconSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IconSearch-frameworks.sh"; sourceTree = "<group>"; };
+		0E84964FAF248895F502566004A86EF7 /* Pods-IconSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		16F808A5F51E45F80C47EC9B5D900073 /* Pods-IconSearch */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IconSearch"; path = Pods_IconSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.debug.xcconfig; sourceTree = "<group>"; };
+		1F93B7E3509DAFCEA2531ACFC9029739 /* Pods-IconSearch-IconSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconSearch-IconSearchUITests-umbrella.h"; sourceTree = "<group>"; };
+		1FF9D622CB021EB010030B17939B23AC /* Pods-IconSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearchTests-Info.plist"; sourceTree = "<group>"; };
+		25D7B4B6C7E85DF6B4D6E1316BE4EEC2 /* Pods-IconSearchTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IconSearchTests"; path = Pods_IconSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SearchTextField; path = SearchTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3142255476C2AE5C40701239C75AB93D /* Pods-IconSearch-IconSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearch-IconSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E29E894B243E57C3BEC213598C06D66 /* Pods-IconSearch-IconSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearch-IconSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B644B046D33F4FF3E582BED28E97D41 /* Pods-IconSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearch-Info.plist"; sourceTree = "<group>"; };
+		69910E6CD5AF07D3E53D8A4930848D00 /* Pods-IconSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconSearch-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77E00A3DC05BFC5EC7FE9F7EAACEE8E3 /* Pods-IconSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		849D7684FB318371394B0F2DA617E87C /* Pods-IconSearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IconSearchTests.modulemap"; sourceTree = "<group>"; };
+		87C5C2B872EC9B5F12FE1ED51B7E925E /* SearchTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SearchTextField.modulemap; sourceTree = "<group>"; };
+		934D060554DC79DAE657FF2B8DBE36D9 /* Pods-IconSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearch.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A180460B86FB251E8B1B4ACC1D414E37 /* Pods-IconSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2FB1A0BC23BC2667DCBC40623430E02 /* Pods-IconSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		A816DB3DE84AA4C55C91693579A08745 /* Pods-IconSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEE41C59D375FFC8A220587D296E78CE /* SearchTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-prefix.pch"; sourceTree = "<group>"; };
+		B544141ED9BC157065A90C72F8FD68BB /* Pods-IconSearch-IconSearchUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-IconSearch-IconSearchUITests"; path = Pods_IconSearch_IconSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD288F1B866CAD56590FABD4A5187EC /* SearchTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SearchTextField-Info.plist"; sourceTree = "<group>"; };
+		C60A97758F6AC93C1D32A07C6FFFA1A8 /* Pods-IconSearch-IconSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-IconSearch-IconSearchUITests.modulemap"; sourceTree = "<group>"; };
+		C68C2188438FC9E9F03754810543CFDD /* Pods-IconSearch-IconSearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearch-IconSearchUITests-Info.plist"; sourceTree = "<group>"; };
+		CCB63BEB18C6C2F841DAEF28A20C3555 /* Pods-IconSearch-IconSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IconSearch-IconSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SearchTextField-umbrella.h"; sourceTree = "<group>"; };
+		D3E58383A6A1BB28C503D56C4D1140AC /* Pods-IconSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconSearchTests-dummy.m"; sourceTree = "<group>"; };
+		D638B6BC521F70D54F90BD83DA9DEC9C /* Pods-IconSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IconSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8E5CFF840BFE81C8EB18518248C2479 /* Pods-IconSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconSearch-dummy.m"; sourceTree = "<group>"; };
+		D9589DFC11D608BC62DD3426BAE2EB20 /* Pods-IconSearch-IconSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IconSearch-IconSearchUITests-dummy.m"; sourceTree = "<group>"; };
+		D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SearchTextField-dummy.m"; sourceTree = "<group>"; };
+		E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchTextField.swift; path = SearchTextField/Classes/SearchTextField.swift; sourceTree = "<group>"; };
+		E5CB0A441A6DB7229EB445DFFE5BDFBA /* Pods-IconSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IconSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SearchTextField.release.xcconfig; sourceTree = "<group>"; };
+		FBBE4E12736EE71C6A889F517F805429 /* Pods-IconSearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IconSearchTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9DA99A1D94EC95FE33B54A53F14DEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE2143C4DAED0DDD7651630F69DA78D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F7DE7FDCE92D9A12FEE8EC4D9632EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A295A4CCB3719848C6D0C984794B136F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA886D361FB22BCC1024E78C8F61E5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059A9FD6D7765B912D04C31B33F59CF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04F9C4692A3258651A18A48747AEA97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFC3BB575514A837C7299AFB8069FB50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10EEF578E1233F8FB3698F7B0E483368 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4C196B1E2874F3F2DF307C21C3B97 /* SearchTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53872549A75B855B08E5C39A3B617DBD /* Pods-IconSearch */ = {
+			isa = PBXGroup;
+			children = (
+				0B4B61E26FFC01677AEE6457C09EDADD /* Pods-IconSearch.modulemap */,
+				A180460B86FB251E8B1B4ACC1D414E37 /* Pods-IconSearch-acknowledgements.markdown */,
+				0E84964FAF248895F502566004A86EF7 /* Pods-IconSearch-acknowledgements.plist */,
+				D8E5CFF840BFE81C8EB18518248C2479 /* Pods-IconSearch-dummy.m */,
+				0C2B685753885950DA058CE142AC8505 /* Pods-IconSearch-frameworks.sh */,
+				5B644B046D33F4FF3E582BED28E97D41 /* Pods-IconSearch-Info.plist */,
+				69910E6CD5AF07D3E53D8A4930848D00 /* Pods-IconSearch-umbrella.h */,
+				77E00A3DC05BFC5EC7FE9F7EAACEE8E3 /* Pods-IconSearch.debug.xcconfig */,
+				934D060554DC79DAE657FF2B8DBE36D9 /* Pods-IconSearch.release.xcconfig */,
+			);
+			name = "Pods-IconSearch";
+			path = "Target Support Files/Pods-IconSearch";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E9D1529EE2A4B2D2D7AE04F67F042A4 /* Pods-IconSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				849D7684FB318371394B0F2DA617E87C /* Pods-IconSearchTests.modulemap */,
+				E5CB0A441A6DB7229EB445DFFE5BDFBA /* Pods-IconSearchTests-acknowledgements.markdown */,
+				D638B6BC521F70D54F90BD83DA9DEC9C /* Pods-IconSearchTests-acknowledgements.plist */,
+				D3E58383A6A1BB28C503D56C4D1140AC /* Pods-IconSearchTests-dummy.m */,
+				1FF9D622CB021EB010030B17939B23AC /* Pods-IconSearchTests-Info.plist */,
+				FBBE4E12736EE71C6A889F517F805429 /* Pods-IconSearchTests-umbrella.h */,
+				A816DB3DE84AA4C55C91693579A08745 /* Pods-IconSearchTests.debug.xcconfig */,
+				A2FB1A0BC23BC2667DCBC40623430E02 /* Pods-IconSearchTests.release.xcconfig */,
+			);
+			name = "Pods-IconSearchTests";
+			path = "Target Support Files/Pods-IconSearchTests";
+			sourceTree = "<group>";
+		};
+		AC8456E68D3422C3280C5B25BAA44EA4 /* Pods-IconSearch-IconSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C60A97758F6AC93C1D32A07C6FFFA1A8 /* Pods-IconSearch-IconSearchUITests.modulemap */,
+				0B417C02EDEBE04E427E6C03D471214F /* Pods-IconSearch-IconSearchUITests-acknowledgements.markdown */,
+				3142255476C2AE5C40701239C75AB93D /* Pods-IconSearch-IconSearchUITests-acknowledgements.plist */,
+				D9589DFC11D608BC62DD3426BAE2EB20 /* Pods-IconSearch-IconSearchUITests-dummy.m */,
+				08DD264D83BDB15C9821BA7150F22527 /* Pods-IconSearch-IconSearchUITests-frameworks.sh */,
+				C68C2188438FC9E9F03754810543CFDD /* Pods-IconSearch-IconSearchUITests-Info.plist */,
+				1F93B7E3509DAFCEA2531ACFC9029739 /* Pods-IconSearch-IconSearchUITests-umbrella.h */,
+				CCB63BEB18C6C2F841DAEF28A20C3555 /* Pods-IconSearch-IconSearchUITests.debug.xcconfig */,
+				4E29E894B243E57C3BEC213598C06D66 /* Pods-IconSearch-IconSearchUITests.release.xcconfig */,
+			);
+			name = "Pods-IconSearch-IconSearchUITests";
+			path = "Target Support Files/Pods-IconSearch-IconSearchUITests";
+			sourceTree = "<group>";
+		};
+		ACF4C196B1E2874F3F2DF307C21C3B97 /* SearchTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E1E35B2ED624FC1F11FA2AC2C2966BCA /* SearchTextField.swift */,
+				B87926D3082B3B36D503BABAD83A2746 /* Support Files */,
+			);
+			name = SearchTextField;
+			path = SearchTextField;
+			sourceTree = "<group>";
+		};
+		B87926D3082B3B36D503BABAD83A2746 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C5C2B872EC9B5F12FE1ED51B7E925E /* SearchTextField.modulemap */,
+				D97BDCDAD3ADAC710780B1105125916E /* SearchTextField-dummy.m */,
+				BDD288F1B866CAD56590FABD4A5187EC /* SearchTextField-Info.plist */,
+				AEE41C59D375FFC8A220587D296E78CE /* SearchTextField-prefix.pch */,
+				D1A9556BCD43047C2881ED46E0B03507 /* SearchTextField-umbrella.h */,
+				1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */,
+				EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SearchTextField";
+			sourceTree = "<group>";
+		};
+		BA057D579A491B261EC464ECC4F06AF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53872549A75B855B08E5C39A3B617DBD /* Pods-IconSearch */,
+				AC8456E68D3422C3280C5B25BAA44EA4 /* Pods-IconSearch-IconSearchUITests */,
+				5E9D1529EE2A4B2D2D7AE04F67F042A4 /* Pods-IconSearchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				10EEF578E1233F8FB3698F7B0E483368 /* Pods */,
+				DC258F121E7EA8AABA4E28D019BA0AA6 /* Products */,
+				BA057D579A491B261EC464ECC4F06AF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC258F121E7EA8AABA4E28D019BA0AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16F808A5F51E45F80C47EC9B5D900073 /* Pods-IconSearch */,
+				B544141ED9BC157065A90C72F8FD68BB /* Pods-IconSearch-IconSearchUITests */,
+				25D7B4B6C7E85DF6B4D6E1316BE4EEC2 /* Pods-IconSearchTests */,
+				27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		362670BD19C48F8BD801FB56F6FE043A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2D72E792A48A8BB61F4270F411A41E /* Pods-IconSearch-IconSearchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41E343C45A022A92FB72E3BFDF55E714 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98766F8872C695A5AF09612E0ED427CF /* Pods-IconSearchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A4525D29045BE265F4F9FCAE2C89C02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DD5211E0939599AB451AD5CF372791 /* SearchTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83E920E58A4569846D36B19226504CC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848FD2BCE5777B3913F0B8BD252F43C /* Pods-IconSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DF34B264A70D6BDD554279E4D5DA359 /* Pods-IconSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4090ACBEFF1823C0246A90F26F6098 /* Build configuration list for PBXNativeTarget "Pods-IconSearchTests" */;
+			buildPhases = (
+				41E343C45A022A92FB72E3BFDF55E714 /* Headers */,
+				877BFAF8D543E018A129A2DE1FCA472B /* Sources */,
+				9F9DA99A1D94EC95FE33B54A53F14DEE /* Frameworks */,
+				F8AA6FC2E62125C7EFD79CEC290A689A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78713D71504AC7F4739826F7703C2AD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-IconSearchTests";
+			productName = Pods_IconSearchTests;
+			productReference = 25D7B4B6C7E85DF6B4D6E1316BE4EEC2 /* Pods-IconSearchTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9EB5D86A537AAF4224ADF47A5ECF9A /* Build configuration list for PBXNativeTarget "SearchTextField" */;
+			buildPhases = (
+				4A4525D29045BE265F4F9FCAE2C89C02 /* Headers */,
+				05E442207DEC83B345D5624A3925F053 /* Sources */,
+				A8F7DE7FDCE92D9A12FEE8EC4D9632EB /* Frameworks */,
+				4A1B82FCB14A028FDD88DC7038D46259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchTextField;
+			productName = SearchTextField;
+			productReference = 27E38DF68C673A5EB8644FB6A9772F87 /* SearchTextField */;
+			productType = "com.apple.product-type.framework";
+		};
+		C10D83B4CCB59B2DF5AB3EEBBD02A13E /* Pods-IconSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58B73945928C92DC61E712590DE41FC /* Build configuration list for PBXNativeTarget "Pods-IconSearch" */;
+			buildPhases = (
+				83E920E58A4569846D36B19226504CC2 /* Headers */,
+				7CA1A7FD2BD166E6BC333C6BE09A1482 /* Sources */,
+				B04F9C4692A3258651A18A48747AEA97 /* Frameworks */,
+				5A1C49F02FED3670508740FE9C865B65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA267AE851651D2C25AC0050BCB3D45C /* PBXTargetDependency */,
+			);
+			name = "Pods-IconSearch";
+			productName = Pods_IconSearch;
+			productReference = 16F808A5F51E45F80C47EC9B5D900073 /* Pods-IconSearch */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DE2C5DFA8627598B89197B72DD0F12 /* Pods-IconSearch-IconSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4BB85ECAC8A029CCAD315630CCCD6E /* Build configuration list for PBXNativeTarget "Pods-IconSearch-IconSearchUITests" */;
+			buildPhases = (
+				362670BD19C48F8BD801FB56F6FE043A /* Headers */,
+				9072B6F4A83DB72EEA9B429A5F208FD1 /* Sources */,
+				ACA886D361FB22BCC1024E78C8F61E5B /* Frameworks */,
+				61EF47780589E4D616571F089AE9BB99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C9848303766543798D233E7965B32B /* PBXTargetDependency */,
+			);
+			name = "Pods-IconSearch-IconSearchUITests";
+			productName = Pods_IconSearch_IconSearchUITests;
+			productReference = B544141ED9BC157065A90C72F8FD68BB /* Pods-IconSearch-IconSearchUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DC258F121E7EA8AABA4E28D019BA0AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C10D83B4CCB59B2DF5AB3EEBBD02A13E /* Pods-IconSearch */,
+				C6DE2C5DFA8627598B89197B72DD0F12 /* Pods-IconSearch-IconSearchUITests */,
+				1DF34B264A70D6BDD554279E4D5DA359 /* Pods-IconSearchTests */,
+				8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1B82FCB14A028FDD88DC7038D46259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1C49F02FED3670508740FE9C865B65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61EF47780589E4D616571F089AE9BB99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AA6FC2E62125C7EFD79CEC290A689A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E442207DEC83B345D5624A3925F053 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903CC45A3B2503C16AB3DB622CD843F1 /* SearchTextField.swift in Sources */,
+				7001D61A505057C728C6FCF5688D1087 /* SearchTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CA1A7FD2BD166E6BC333C6BE09A1482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F240A08847D4FAE8489A1A12A67DB5B9 /* Pods-IconSearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877BFAF8D543E018A129A2DE1FCA472B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FFF21C9462ADB29EB2B9C226E1594A /* Pods-IconSearchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9072B6F4A83DB72EEA9B429A5F208FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BBD31B981521045BFD65CD41B55FA6 /* Pods-IconSearch-IconSearchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C9848303766543798D233E7965B32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SearchTextField;
+			target = 8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */;
+			targetProxy = 0AF5432CFF6352B962A81EA279CD5C94 /* PBXContainerItemProxy */;
+		};
+		78713D71504AC7F4739826F7703C2AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-IconSearch";
+			target = C10D83B4CCB59B2DF5AB3EEBBD02A13E /* Pods-IconSearch */;
+			targetProxy = 3E3D5B8B09D8BDE53E363D81C04429C6 /* PBXContainerItemProxy */;
+		};
+		EA267AE851651D2C25AC0050BCB3D45C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SearchTextField;
+			target = 8C3F94412D7198255213EB9BC85FFF6E /* SearchTextField */;
+			targetProxy = DEF81DA717695E39C0AB834B8B703BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FECADFD6688A3639EA4E8256F94CF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E00A3DC05BFC5EC7FE9F7EAACEE8E3 /* Pods-IconSearch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearch/Pods-IconSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearch/Pods-IconSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25D2EB7598770C109BDF95C5EFB51B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29E894B243E57C3BEC213598C06D66 /* Pods-IconSearch-IconSearchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearch-IconSearchUITests/Pods-IconSearch-IconSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearch-IconSearchUITests/Pods-IconSearch-IconSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DB80780C2D88D35C9005A8A1B4792BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB63BEB18C6C2F841DAEF28A20C3555 /* Pods-IconSearch-IconSearchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearch-IconSearchUITests/Pods-IconSearch-IconSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearch-IconSearchUITests/Pods-IconSearch-IconSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45AE49051165993569CEBC0C8E17CA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE490A619112C4A4CDDA3E2850070C2E /* SearchTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SearchTextField/SearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SearchTextField/SearchTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SearchTextField/SearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = SearchTextField;
+				PRODUCT_NAME = SearchTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50CC41B2FA1A88F4CF65FE677D9F5EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FB1A0BC23BC2667DCBC40623430E02 /* Pods-IconSearchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearchTests/Pods-IconSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearchTests/Pods-IconSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51C057726ADEE0B9BF0EE043592E45E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A816DB3DE84AA4C55C91693579A08745 /* Pods-IconSearchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearchTests/Pods-IconSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearchTests/Pods-IconSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56264D85D24A161F1FDA9ED26035385C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934D060554DC79DAE657FF2B8DBE36D9 /* Pods-IconSearch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IconSearch/Pods-IconSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IconSearch/Pods-IconSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF69B5C4F483A5C61DC52F8BAC11E89B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A062928D92A6ECC93C9312D86254F5A /* SearchTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SearchTextField/SearchTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SearchTextField/SearchTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SearchTextField/SearchTextField.modulemap";
+				PRODUCT_MODULE_NAME = SearchTextField;
+				PRODUCT_NAME = SearchTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9EB5D86A537AAF4224ADF47A5ECF9A /* Build configuration list for PBXNativeTarget "SearchTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF69B5C4F483A5C61DC52F8BAC11E89B /* Debug */,
+				45AE49051165993569CEBC0C8E17CA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4090ACBEFF1823C0246A90F26F6098 /* Build configuration list for PBXNativeTarget "Pods-IconSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51C057726ADEE0B9BF0EE043592E45E3 /* Debug */,
+				50CC41B2FA1A88F4CF65FE677D9F5EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58B73945928C92DC61E712590DE41FC /* Build configuration list for PBXNativeTarget "Pods-IconSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FECADFD6688A3639EA4E8256F94CF20 /* Debug */,
+				56264D85D24A161F1FDA9ED26035385C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4BB85ECAC8A029CCAD315630CCCD6E /* Build configuration list for PBXNativeTarget "Pods-IconSearch-IconSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB80780C2D88D35C9005A8A1B4792BB /* Debug */,
+				25D2EB7598770C109BDF95C5EFB51B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

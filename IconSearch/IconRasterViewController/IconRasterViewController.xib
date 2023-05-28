@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IconRasterViewController" customModule="IconSearch" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="0A8-yI-lNn" id="Gba-0D-GwF"/>
+                <outlet property="titleLabel" destination="QOp-p9-Hbe" id="7jW-m1-fhe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="set_name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOp-p9-Hbe">
+                    <rect key="frame" x="0.0" y="59" width="393" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0A8-yI-lNn">
+                    <rect key="frame" x="0.0" y="87" width="393" height="731"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Reusable Cell" translatesAutoresizingMaskIntoConstraints="NO" id="esE-iL-Gcn" customClass="IconRasterCellVC" customModule="IconSearch" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="95" width="393" height="44"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="esE-iL-Gcn" id="bpL-gW-guY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tableViewCellContentView>
+                </tableViewCell>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0A8-yI-lNn" secondAttribute="trailing" id="1Km-Mm-fUu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QOp-p9-Hbe" secondAttribute="trailing" id="bXS-jp-FRg"/>
+                <constraint firstItem="0A8-yI-lNn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hP0-TY-x5P"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="0A8-yI-lNn" secondAttribute="bottom" id="lzf-ST-2UW"/>
+                <constraint firstItem="QOp-p9-Hbe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pwd-Ae-543"/>
+                <constraint firstItem="QOp-p9-Hbe" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="qUT-re-Pll"/>
+                <constraint firstItem="0A8-yI-lNn" firstAttribute="top" secondItem="QOp-p9-Hbe" secondAttribute="bottom" id="ujR-pQ-bgC"/>
+            </constraints>
+            <point key="canvasLocation" x="96" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
